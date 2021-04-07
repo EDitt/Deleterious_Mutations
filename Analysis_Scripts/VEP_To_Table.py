@@ -16,7 +16,7 @@ def parse_vcf(fname):
                 continue
             else:
                 tmp = line.strip().split()
-                snpid = tmp[2]
+                #snpid = tmp[2]
                 chrom = tmp[0]
                 pos = tmp[1]
                 vcf_data[(chrom, pos)] = snpid
