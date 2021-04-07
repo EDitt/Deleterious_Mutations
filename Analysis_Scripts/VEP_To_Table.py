@@ -19,8 +19,7 @@ def parse_vcf(fname):
                 #snpid = tmp[2]
                 chrom = tmp[0]
                 pos = tmp[1]
-                snpid = tmp[[0], tmp[1]]
-                vcf_data[(chrom, pos)] = snpid
+                #vcf_data[(chrom, pos)] = snpid
     return vcf_data
 
 
